@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -name "*.js" -printf "%f\n" | cut -d "." -f 1 | sorted -f
